@@ -1,5 +1,6 @@
 # cordova-plugin-downloadmanager
 A Cordova plugin to download file in system's default download manager
+Forked from: https://github.com/vasani-arpit/cordova-plugin-downloadmanager
 
 ## Supported Platforms
 
@@ -21,7 +22,7 @@ var fail = function (message) {
 var success = function (data) {
         console.log("succes");
 }
-cordova.plugins.DownloadManager.download("Your URL to download", success, fail);
+cordova.plugins.DownloadManager.download("Your URL to download", 'Your filename with extension', success, fail);
  ```
 
 ## Result
