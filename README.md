@@ -1,5 +1,6 @@
 # cordova-plugin-downloadmanager
 A Cordova plugin to download file in system's default download manager
+
 Forked from: https://github.com/vasani-arpit/cordova-plugin-downloadmanager
 
 ## Supported Platforms
@@ -8,9 +9,15 @@ Forked from: https://github.com/vasani-arpit/cordova-plugin-downloadmanager
 
  ## Installation
 
+### CLI
  ```
  cordova plugin add https://github.com/vasani-arpit/cordova-plugin-downloadmanager
  ```
+
+### Config.xml ( build.phonegap.com )
+```
+<plugin name="github-cordova-plugin-downloadmanager" spec="https://github.com/anothercube/cordova-plugin-downloadmanager" source="git" />
+```
 
  ## How to Use 
 
